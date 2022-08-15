@@ -4,7 +4,13 @@
  * By Hakim El Hattab, http://hakim.se
  */
 @import url(./fonts/source-sans-pro/source-sans-pro.css);
-section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
+section.has-light-background,
+section.has-light-background h1,
+section.has-light-background h2,
+section.has-light-background h3,
+section.has-light-background h4,
+section.has-light-background h5,
+section.has-light-background h6 {
   color: #222;
 }
 
@@ -255,13 +261,13 @@ section.has-light-background, section.has-light-background h1, section.has-light
   border-bottom: 1px solid;
 }
 
-.reveal table th[align=center],
-.reveal table td[align=center] {
+.reveal table th[align="center"],
+.reveal table td[align="center"] {
   text-align: center;
 }
 
-.reveal table th[align=right],
-.reveal table td[align=right] {
+.reveal table th[align="right"],
+.reveal table td[align="right"] {
   text-align: right;
 }
 
@@ -354,4 +360,40 @@ section.has-light-background, section.has-light-background h1, section.has-light
   .backgrounds {
     background-color: var(--r-background-color);
   }
+}
+
+.reveal .main__title {
+  color: #1b8bcc;
+  font-size: 3em;
+}
+
+.title {
+  text-decoration: underline;
+  font-size: 2em;
+  color: #1b8bcc;
+}
+.second__slide {
+  font-size: 1em;
+}
+
+.text {
+  font-size: 0.5em;
+}
+.fourth__slide-img img,
+.seventh__slide-img img {
+  width: 40%;
+}
+.ninth__slide-img img,
+.twelfth__slide-img img {
+  width: 60%;
+}
+
+b {
+  color: #1b8bcc;
+}
+li {
+  padding-bottom: 50px;
+}
+ol li {
+  text-align: center;
 }
